@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 
-const CHAT_API_URL = process.env.NEXT_PUBLIC_CHAT_API_URL || 'http://localhost:5000';
+const CHAT_API_URL = process.env.NEXT_PUBLIC_CHAT_API_URL || 'http://localhost:5001';
 
 type Message = { role: 'user' | 'bot'; text: string };
 
