@@ -30,3 +30,10 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# logs
+*.log
+
+# chatbot — never commit Firebase keys
+chatbot/config/firebase.json
+chatbot/config/firebaseServiceKey.json
